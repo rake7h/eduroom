@@ -1,0 +1,30 @@
+.columns-vertically-centered .column {
+        display: table-cell;
+        float: none;
+        text-align: left;
+        vertical-align: middle
+    }
+
+    .columns-vertically-centered.columns-reverse {
+        direction: rtl
+    }
+
+    .columns-vertically-centered.columns-reverse .column {
+        direction: ltr
+    }
+}
+.jumbotron{
+    background: #000 url("../images/github-hero.jpeg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    color: #FFF; // change text color
+}
+.head_signup{
+
+alignment-baseline: central;
+}
+.navbar-brand>img {
+  padding: 7px 15px;
+}

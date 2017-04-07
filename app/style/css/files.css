@@ -1,0 +1,8 @@
+.wordb{
+    
+    word-wrap:break-word;
+    overflow-wrap: break-word;
+}
+.filerow:hover{
+    background-color:#f0f8ff;
+}
